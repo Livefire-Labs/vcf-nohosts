@@ -1,12 +1,48 @@
 # Using the EPC - VCF 5.2.1 No Hosts - Lab Template
 
-This template only has three VMs.  **Holo-Router**, **Holo-Console** and **VCF 5.2.1 Cloudbuilder**.  In order to be able to deploy VCF 5.2.1 using this template, you will need to create four ESXi Hosts with the following settings in the vApp
+This template only has three VMs.  **Holo-Router**, **Holo-Console** and **VCF 5.2.1 Cloudbuilder**.  
+
+In order to be able to deploy VCF 5.2.1 using this template, you will need to create four ESXi Hosts with the following settings in the vApp
 
 * 128GB RAM
 * 12 CPUs (Note.  You want one socket with 12 cores, NOT 12 sockets)
 * 1 x 32GB Paravirtual (SCSI) 
 * 1 x 256GB NVMe
 * 4 x VMXNET3 NICS, connected to vAppNet and set to DHCP Mode
+
+
+
+![Add VM](_images/add.vm.png)
+
+Click **ALL ACTIONS --> Add --> Add VM**
+
+![alt text](_images/add.vm.2.png)
+
+Click **ADD VIRTUAL MACHINE**
+
+![alt text](_images/add.vm.esxi1.png)
+* Name: esxi-(1,2,3,4)
+* Description: 
+* Type: New
+* Guest OS Family: Other
+* Guest OS: VMware ESXi 8.0 or later
+
+![alt text](_images/add.vm.esxi2.png)
+
+dd
+
+
+![alt text](_images/add.vm.esxi3.png)
+
+![alt text](_images/add.vm.esxi.Add.png)
+
+![alt text](_images/edit.vm.esxi1.png)
+
+![alt text](_images/edit.vm.esxi2.png)
+
+![alt text](_images/edit.vm.esxi3.png)
+
+![alt text](_images/edit.vm.esxi4.png)
 
 Once they are created, you need to attach the ESXii installation ISO image VMware-VMvisor-Installer-8.0U3b-24280767.x86_64.iso to virtual CD-ROM
 
