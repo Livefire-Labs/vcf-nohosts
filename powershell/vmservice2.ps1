@@ -17,7 +17,7 @@ foreach ($esxiHost in $esxiHosts) {
         Write-Host "SSH started on $hostname"
     }
     catch {
-        Write-Error "Error on $hostname: $($_.Exception.Message)"
+        Write-Error "Error on " $hostname $($_.Exception.Message)
     }
 }
 
