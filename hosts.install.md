@@ -95,9 +95,8 @@ For the installation you install ESXi onto the 32GB drive and set a root passwor
 
 Once installation has completed and the vHosts have rebooted, you’ll need to log into each one and set the following values
 
-Management Network VLAN = 10
-
-Name and IP information is
+|Management Network VLAN = 10|
+|:---------------------------|
 
 | FQDN (hostname)     | IP         | SM            | DF         |
 | :------------------ | :--------- | :------------ | :--------- |
