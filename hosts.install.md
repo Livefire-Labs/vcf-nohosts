@@ -119,15 +119,7 @@ Start the vApp in vCloud Director.  Once it has started up, connect to the Holo-
 Finally, use Putty to ssh into each host and re-generate the default certificates using the following commands
 
 
-CD /etc/vmware/ssl
-
-mv rui.crt orig.rui.crt
-
-mv rui.key orig.rui.key
-
-/sbin/generate-certificates
-
-reboot
+CD /etc/vmware/ssl && mv rui.crt orig.rui.crt && mv rui.key orig.rui.key && /sbin/generate-certificates && reboot
 
 You need to do this so that the default certificate contains the FQDN of the host.
 
