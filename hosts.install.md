@@ -95,20 +95,14 @@ For the installation you install ESXi onto the 32GB drive and set a root passwor
 
 Once installation has completed and the vHosts have rebooted, you’ll need to log into each one and set the following values
 
-|Management Network VLAN|
-|:---------------------------|
-|10|
 
-|Management Network VLAN| FQDN (hostname)     | IP         | SM            | DF         |
-|:---------------------- |:------------------- |:---------- |:------------- |:---------- |
+|Management Network VLAN| FQDN (hostname)     | IP         | SM            | DF and DNS         |
+|:---------------------- |:------------------- |:---------- |:------------ |:------------------ |
 | 10 | esxi-1.vcf.sddc.lab | 10.0.0.101 | 255.255.255.0 | 10.0.0.253 |
 | 10 | esxi-2.vcf.sddc.lab | 10.0.0.102 | 255.255.255.0 | 10.0.0.253 |
 | 10 | esxi-3.vcf.sddc.lab | 10.0.0.103 | 255.255.255.0 | 10.0.0.253 |
 | 10 | esxi-4.vcf.sddc.lab | 10.0.0.104 | 255.255.255.0 | 10.0.0.253 |
 
-|DNS:|
-|:---|
-|10.0.0.253|
 
 You must restart the management network when prompted.
 
