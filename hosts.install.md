@@ -29,20 +29,57 @@ Click **ADD VIRTUAL MACHINE**
 
 ![alt text](_images/add.vm.esxi2.png)
 
-dd
-
-
 ![alt text](_images/add.vm.esxi3.png)
 
 ![alt text](_images/add.vm.esxi.Add.png)
 
 ![alt text](_images/edit.vm.esxi1.png)
 
+1.
+
 ![alt text](_images/edit.vm.esxi2.png)
+
+2.
 
 ![alt text](_images/edit.vm.esxi3.png)
 
+3.
+
 ![alt text](_images/edit.vm.esxi4.png)
+
+4.
+
+![alt text](_images/copy.vm.esxi1.png)
+
+5.
+
+![alt text](_images/copy.vm.esxi2.png)
+
+6
+
+![alt text](_images/copy.vm.esxi3.png)
+
+7.
+
+![alt text](_images/copy.vm.esxi4.png)
+
+Remember to rename it properly
+
+Click **NEXT**
+
+![alt text](_images/copy.vm.esxi5.png)
+
+Click **DONE**
+
+![alt text](_images/copy.vm.esxi6.png)
+
+Wait for the new VM to be Created
+
+![alt text](_images/copy.vm.esxi7.png)
+
+Once that one is created, repeat until you have all the ESXi hosts you need
+
+
 
 Once they are created, you need to attach the ESXii installation ISO image VMware-VMvisor-Installer-8.0U3b-24280767.x86_64.iso to virtual CD-ROM
 
