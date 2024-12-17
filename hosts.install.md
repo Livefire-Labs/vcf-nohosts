@@ -105,7 +105,9 @@ Once installation has completed and the vHosts have rebooted, you’ll need to l
 | esxi-3.vcf.sddc.lab | 10.0.0.103 | 255.255.255.0 | 10.0.0.253 |
 | esxi-4.vcf.sddc.lab | 10.0.0.104 | 255.255.255.0 | 10.0.0.253 |
 
-DNS Server is 10.0.0.253
+|DNS:|
+|:---|
+|10.0.0.253|
 
 You must restart the management network when prompted.
 
