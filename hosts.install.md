@@ -79,9 +79,17 @@ Wait for the new VM to be Created
 
 Once that one is created, repeat until you have all the ESXi hosts you need
 
+![alt text](_images/powerOn.vm.esxi1.png)
 
+Power them all On
 
-Once they are created, you need to attach the ESXii installation ISO image VMware-VMvisor-Installer-8.0U3b-24280767.x86_64.iso to virtual CD-ROM
+![alt text](_images/powerOn.vm.esxi2.png)
+
+Wait for them all to power on and open all the consoles at once
+
+![alt text](_images/configAll.vm.esxi.png)
+
+From Here you can go through and configure each host properl
 
 For the installation you install ESXi onto the 32GB drive and set a root password of VMware123!VMware123!
 
@@ -112,9 +120,14 @@ Finally, use Putty to ssh into each host and re-generate the default certificate
 
 
 CD /etc/vmware/ssl
+
 mv rui.crt orig.rui.crt
+
 mv rui.key orig.rui.key
+
 /sbin/generate-certificates
+
+reboot
 
 You need to do this so that the default certificate contains the FQDN of the host.
 
