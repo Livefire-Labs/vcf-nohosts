@@ -120,6 +120,18 @@ Start the vApp in vCloud Director.  Once it has started up, connect to the Holo-
 
 Finally, use Putty to ssh into each host and re-generate the default certificates using the following commands
 
+From cmd or powershell run. 
+
+```
+putty.exe -load esxi-1 -l root -pw VMware123!VMware123!
+putty.exe -load esxi-2 -l root -pw VMware123!VMware123!
+putty.exe -load esxi-3 -l root -pw VMware123!VMware123!
+putty.exe -load esxi-4 -l root -pw VMware123!VMware123!
+```
+
+Once in each putty session run
+
+
 ```
 cd /etc/vmware/ssl
 mv rui.crt orig.rui.crt
