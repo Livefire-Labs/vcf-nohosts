@@ -138,9 +138,19 @@ mv rui.crt orig.rui.crt
 mv rui.key orig.rui.key
 /sbin/generate-certificates
 ```
+then
+```
+ /etc/init.d/hostd restart
+```
+
+then
+
 ```
 reboot
 ```
+
+
+And close the putty session
 
 You need to do this so that the default certificate contains the FQDN of the host.
 
